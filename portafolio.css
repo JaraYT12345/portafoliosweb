@@ -1,0 +1,130 @@
+.navbar {
+    background-color: black;
+    width: 100%;
+    padding: 10px 0; /* Ajusta el alto de la barra aquí */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    margin-left: 20px; /* Espaciado a la izquierda del logo */
+}
+.navbar .logo img {
+    height: 40px; /* Ajusta el tamaño del logo aquí */
+}
+.navbar .nav-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.navbar .nav-links a:hover {
+    background-color: #333;
+}
+.navbar .contact-button {
+    margin-right: 20px; /* Espaciado a la derecha del botón de contacto */
+}
+.navbar .contact-button a {
+    background-color: #f39c12; /* Color del botón de contacto */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.navbar .contact-button a:hover {
+    background-color: #e67e22; /* Color del botón cuando se pasa el cursor */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.portfolio-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-card h2 {
+    margin-top: 0;
+}
+
+.portfolio-card p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

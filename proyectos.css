@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    padding: 10px 0; /* Ajusta el alto de la barra aquí */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    margin-left: 20px; /* Espaciado a la izquierda del logo */
+}
+.navbar .logo img {
+    height: 40px; /* Ajusta el tamaño del logo aquí */
+}
+.navbar .nav-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.navbar .nav-links a:hover {
+    background-color: #333;
+}
+.navbar .contact-button {
+    margin-right: 20px; /* Espaciado a la derecha del botón de contacto */
+}
+.navbar .contact-button a {background-color: #f39c12; /* Color del botón de contacto */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.navbar .contact-button a:hover {
+    background-color: #e67e22; /* Color del botón cuando se pasa el cursor */
+}
+
+
+
+
+
+
+.portfolio-content {
+    padding: 50px 20px;
+    text-align: center;
+}
+.portfolio-content h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Ajusta el ancho de las cartas aquí */
+    text-align: center;
+    padding: 20px;
+}
+.project-card img {
+    width: 100%;
+    height: 200px; /* Ajusta la altura de las imágenes aquí */
+    object-fit: cover;
+}
+.project-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+}
+.project-card p {
+    color: #666;
+}
+.project-card a {
+    display: inline-block;
+    background-color: #f39c12; /* Color del botón */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+.project-card a:hover {
+    background-color: #e67e22; /* Color del botón cuando se pasa el cursor */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
